@@ -6,7 +6,7 @@ name: Mirror Web UI to ironshelf-web
 # sets window.IRONSHELF_HOSTED = true) and CNAME — those are NOT overwritten.
 #
 # Requires a WEB_MIRROR_TOKEN secret: a fine-grained PAT with Contents:
-# Read and write on LightWraith8268/ironshelf-web.
+# Read and write on Ink-Iron-Apps/ironshelf-web.
 on:
   push:
     branches: [claude/dev]
@@ -34,7 +34,7 @@ jobs:
       - name: Checkout ironshelf-web (target)
         uses: actions/checkout@v5
         with:
-          repository: LightWraith8268/ironshelf-web
+          repository: Ink-Iron-Apps/ironshelf-web
           token: ${{ secrets.WEB_MIRROR_TOKEN }}
           path: web-mirror
           ref: main

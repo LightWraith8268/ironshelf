@@ -285,10 +285,10 @@ jobs:
 
           NOTES="${NOTES}---\n\n"
           NOTES="${NOTES}### Installation\n\n"
-          NOTES="${NOTES}**Linux/macOS:** \`curl -fsSL https://github.com/LightWraith8268/ironshelf/releases/download/${VERSION}/install.sh | bash\`\n\n"
+          NOTES="${NOTES}**Linux/macOS:** \`curl -fsSL https://github.com/Ink-Iron-Apps/ironshelf/releases/download/${VERSION}/install.sh | bash\`\n\n"
           NOTES="${NOTES}**Windows (PowerShell as Admin):** \`powershell -ExecutionPolicy Bypass -File install.ps1\`\n\n"
           NOTES="${NOTES}**Manual:** Download the binary for your platform below.\n\n"
-          NOTES="${NOTES}See [DEPLOYMENT.md](https://github.com/LightWraith8268/ironshelf/blob/main/docs/DEPLOYMENT.md) for full setup guide."
+          NOTES="${NOTES}See [DEPLOYMENT.md](https://github.com/Ink-Iron-Apps/ironshelf/blob/main/docs/DEPLOYMENT.md) for full setup guide."
 
           echo -e "$NOTES" > /tmp/release-notes.md
 
